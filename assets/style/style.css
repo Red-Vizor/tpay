@@ -7,6 +7,10 @@ body {
     max-width: 1550px !important;
 }
 
+span {
+    color: #94c691;
+}
+
 /* Navbar */
 
 .navbar .container {
@@ -32,9 +36,6 @@ body {
     background-color: #f4f4f4;
 }
 
-.banner span {
-    color: #94c691;
-}
 
 .banner h3 {
     color: #245c99;
@@ -53,11 +54,18 @@ body {
     font-weight: 500;
 }
 
+/* Our Vision */
 
 .our-vision {
     height: 850px;
     background-image: url("../images/ourvision2.png") , url("../images/ourvision1.png");
 }
+
+.our-vision h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
 
 .features {
     height: 800px;
