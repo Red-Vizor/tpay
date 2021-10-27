@@ -1,6 +1,28 @@
 
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
 .container {
     max-width: 1550px !important;
+}
+
+/* Navbar */
+
+.navbar .container {
+    height: 80px;
+}
+
+.nav-item .nav-link {
+    color: #59957c !important;
+    margin: 0 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-item .btn {
+    background-color: #94c691; 
+    border-color: #94c691;
 }
 
 .banner {
@@ -25,4 +47,14 @@
 .road-map {
     height: 1000px;
     background-color: #f4f4f4;
+}
+
+.roadmap-first {
+    height: 200px;
+    background-color: #1c5085;
+}
+
+.roadmap-second {
+    height: 200px;
+    background-color: #1c5085;
 }
