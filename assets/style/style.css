@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Poppins', sans-serif !important;
+    letter-spacing: -1px;
 }
 
 .container {
@@ -61,12 +62,12 @@ span {
     background-image: url("../images/ourvision2.png") , url("../images/ourvision1.png");
 }
 
-.our-vision h1 {
+.our-vision h1, .features h1 {
     color: #fff;
     font-size: 3.5rem;
 }
 
-.our-vision .vision-text {
+.our-vision .vision-text , .features .features-text {
     color: rgba(255, 255, 255, 0.8);
     line-height: 2.5rem;
     padding: 1rem 9rem 0.5rem;
@@ -99,13 +100,43 @@ span {
     font-size: 0.9rem;
 }
 
+/* Features */
+
 .features {
     height: 800px;
     background-image: url("../images/features.png");
 }
 
+.features .container {
+    padding: 3rem 10rem;
+}
+
+.features .features-card {
+    border-radius: 8px;
+}
+
+.features-card h5 {
+    font-size: 1.3rem; 
+}
+
+.features-card p {
+    color: #3a3a3a;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    padding: 0.3rem 1rem ;
+}
+
+/* Our Partners */
+
 .our-partners {
     height: 350px;
+}
+
+.our-partners h1 {
+    color: #245c99;
+    font-size: 3.5rem; 
+    letter-spacing: -2px !important; 
 }
 
 .road-map {
