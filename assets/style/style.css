@@ -25,10 +25,34 @@ body {
     border-color: #94c691;
 }
 
+/* Banner */
+
 .banner {
     height: 850px;
     background-color: #f4f4f4;
 }
+
+.banner span {
+    color: #94c691;
+}
+
+.banner h3 {
+    color: #245c99;
+    letter-spacing: -2px;
+}
+
+.banner p {
+    line-height: 2.3em;
+    padding-right: 11rem;
+    color: #545454;
+}
+
+.banner .btn {
+    background-color: #94c691; 
+    border-color: #94c691;
+    font-weight: 500;
+}
+
 
 .our-vision {
     height: 850px;
