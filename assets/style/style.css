@@ -63,9 +63,41 @@ span {
 
 .our-vision h1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
+.our-vision .vision-text {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 2.5rem;
+    padding: 1rem 9rem 0.5rem;
+}
+
+.vision-card {
+    padding: 3rem 27rem;
+}
+
+.vision-card .card-body {
+    height: 418px;
+}
+
+.vision-card .card {
+    border: 4px solid #fff;
+    border-bottom: none !important;
+    border-radius: 3rem 3rem 0 0;
+}
+
+.vision-card h5 {
+    color: #fff;
+    padding: 0.8rem 1rem 0 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.vision-card p {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 1rem 1rem 0 1.2rem;
+    font-size: 0.9rem;
+}
 
 .features {
     height: 800px;
