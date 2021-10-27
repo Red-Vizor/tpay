@@ -1,0 +1,28 @@
+
+.container {
+    max-width: 1550px !important;
+}
+
+.banner {
+    height: 850px;
+    background-color: #f4f4f4;
+}
+
+.our-vision {
+    height: 850px;
+    background-image: url("../images/ourvision2.png") , url("../images/ourvision1.png");
+}
+
+.features {
+    height: 800px;
+    background-image: url("../images/features.png");
+}
+
+.our-partners {
+    height: 350px;
+}
+
+.road-map {
+    height: 1000px;
+    background-color: #f4f4f4;
+}
