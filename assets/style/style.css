@@ -232,9 +232,10 @@ span {
 /* Road Map */
 
 .road-map {
-    height: 1350px;
+    height: 1120px;
     background-color: #f4f4f4;
     position: relative;
+    overflow: hidden;
 }
 
 .road-map:before {
