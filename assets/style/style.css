@@ -12,6 +12,12 @@ span {
     color: #94c691;
 }
 
+.ellipse {
+    position: relative;
+    top: -33px;
+    z-index: 0;
+}
+
 /* Navbar */
 
 .navbar .container {
@@ -65,6 +71,8 @@ span {
 .our-vision h1, .features h1 {
     color: #fff;
     font-size: 3.5rem;
+    position: relative;
+    z-index: 1;
 }
 
 .our-vision .vision-text , .features .features-text {
@@ -108,7 +116,7 @@ span {
 }
 
 .features .container {
-    padding: 3rem 10rem;
+    padding: 0 10rem;
 }
 
 .features .features-card {
@@ -127,6 +135,43 @@ span {
     padding: 0.3rem 1rem ;
 }
 
+.features .upper-card {
+    position: relative;
+    bottom: 10px;
+}
+
+.features .lower-card {
+    position: relative;
+    bottom: -70px;
+}
+
+.first-vertical-line {
+    border-left: 7px solid #fff;
+    height: 51%;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    bottom: 10px;
+}
+
+.second-vertical-line {
+    border-left: 7px solid #fff;
+    height: 51%;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    top: 70px;
+}
+
+.third-vertical-line {
+    border-left: 7px solid #fff;
+    height: 28%;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    top: 70px;
+}
+
 /* Our Partners */
 
 .our-partners {
@@ -134,22 +179,54 @@ span {
 }
 
 .our-partners h1 {
+    position: relative;
+    z-index: 1;
     color: #245c99;
     font-size: 3.5rem; 
-    letter-spacing: -2px !important; 
+    letter-spacing: -2px !important;   
 }
+
+/* Road Map */
 
 .road-map {
     height: 1000px;
     background-color: #f4f4f4;
 }
 
+.road-map h1 {
+    color: #245c99;
+    font-size: 3.5rem;
+    position: relative;
+    z-index: 1;
+}
+
 .roadmap-first {
-    height: 200px;
-    background-color: #1c5085;
+    height: 230px;
+    background: rgb(114,182,154);
+    background: linear-gradient(90deg, rgba(114,182,154,1) 0%, rgba(52,109,139,1) 36%, rgba(22,74,132,1) 100%);
 }
 
 .roadmap-second {
-    height: 200px;
-    background-color: #1c5085;
+    height: 230px;
+    background: rgb(114,182,154);
+    background: linear-gradient(90deg, rgba(114,182,154,1) 0%, rgba(52,109,139,1) 36%, rgba(22,74,132,1) 100%);
+}
+
+.road-map .date {
+    color: #5a8f79;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.road-map h3 {
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+
+.road-map p {
+    color: #fff;
+    font-weight: 600;
+    line-height: 0.8rem;
+    font-size: 0.9rem;
 }
