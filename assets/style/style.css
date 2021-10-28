@@ -210,16 +210,35 @@ span {
     z-index: 1;
 }
 
-.roadmap-first {
+.roadmap-box {
+    position: relative;
     height: 230px;
-    background: rgb(114,182,154);
-    background: linear-gradient(90deg, rgba(114,182,154,1) 0%, rgba(52,109,139,1) 36%, rgba(22,74,132,1) 100%);
 }
 
-.roadmap-second {
-    height: 230px;
+
+.roadmap-box:nth-child(even) {
     background: rgb(114,182,154);
     background: linear-gradient(90deg, rgba(114,182,154,1) 0%, rgba(52,109,139,1) 36%, rgba(22,74,132,1) 100%);
+    -ms-transform: skewY(-3deg); 
+    transform: skewY(-3deg);
+    z-index: 1;
+} 
+
+.roadmap-box:nth-child(odd) {
+    background: rgb(59,99,92);
+    background: linear-gradient(90deg, rgba(59,99,92,1) 0%, rgba(33,68,86,1) 36%, rgba(13,45,81,1) 100%);
+    -ms-transform: skewY(15deg); 
+    transform: skewY(15deg);
+    z-index: 0;
+    top: 10px;
+}
+
+.roadmap-box:nth-child(4) {
+    top: 20px;
+}
+
+.roadmap-box:nth-child(5) {
+    top: 30px;
 }
 
 .road-map .date {
@@ -232,6 +251,8 @@ span {
     color: #fff;
     font-size: 2rem;
     padding-top: 1.5rem;
+    -ms-transform: skewY(3deg); 
+    transform: skewY(3deg);  
 }
 
 .road-map p {
@@ -239,4 +260,6 @@ span {
     font-weight: 600;
     line-height: 0.8rem;
     font-size: 0.9rem;
+    -ms-transform: skewY(3deg); 
+    transform: skewY(3deg);  
 }
