@@ -107,6 +107,18 @@ span {
     border: 4px solid #fff;
     border-bottom: none !important;
     border-radius: 3rem 3rem 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.vision-letter {
+    position: absolute;
+    bottom: 0;
+    top: 5px;
+    left: 30px;
+    font-size: 25rem !important;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .vision-card h5 {
