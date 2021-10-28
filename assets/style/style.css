@@ -108,6 +108,16 @@ span {
     font-size: 0.9rem;
 }
 
+/* Distribution */
+
+.distribution h1 {
+    position: relative;
+    z-index: 1;
+    color: #245c99;
+    font-size: 3rem; 
+    letter-spacing: -2px !important;   
+}
+
 /* Features */
 
 .features {

@@ -9,11 +9,35 @@
 
     <link href="./assets/style/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/chart.style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <script src="./assets/font-awesome/b9fcac3324.js"></script>
+    <script src="assets/script/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js'></script>
+    <script>
+        $(document).ready(function () {
+            var ctx = $("#chart-line");
+            var myLineChart = new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ["Spring", "Summer", "Fall", "Winter"],
+                    datasets: [{
+                        data: [1200, 1700, 800, 200],
+                        backgroundColor: ["rgba(255, 0, 0, 0.5)", "rgba(100, 255, 0, 0.5)", "rgba(200, 50, 255, 0.5)", "rgba(0, 100, 255, 0.5)"]
+                    }]
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Weather'
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -137,7 +161,83 @@
     </section>
 
     <!-- Distribution of TolPay -->
-    <h1>Distribution of TolPay</h1>
+    <section class="distribution">
+        <div class="container">
+            <h1 class="text-center fw-bolder pt-5">Distribution of <span>TolPay</span></h1>
+            <img src="assets/images/Ellipse2.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="450">
+            <div class="page-content page-container" id="page-content">
+                <div class="padding">
+                    <div class="row">
+                        <div class="container-fluid d-flex justify-content-center">
+                            <div class="col-sm-8 col-md-6">
+                                <div class="card">
+                                    <div class="card-header">Pie chart</div>
+                                    <div class="card-body" style="height: 420px">
+                                        <div class="chartjs-size-monitor"
+                                            style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
+                                            <div class="chartjs-size-monitor-expand"
+                                                style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                                <div
+                                                    style="position:absolute;width:1000000px;height:1000000px;left:0;top:0">
+                                                </div>
+                                            </div>
+                                            <div class="chartjs-size-monitor-shrink"
+                                                style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                                <div style="position:absolute;width:200%;height:200%;left:0; top:0">
+                                                </div>
+                                            </div>
+                                        </div> <canvas id="chart-line" width="299" height="200"
+                                            class="chartjs-render-monitor"
+                                            style="display: block; width: 299px; height: 200px;"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5>8%</h5>
+                    <p>PreSale</p>
+                </div>
+                <div class="col">
+                    <h5>2%</h5>
+                    <p>PrivateSale</p>
+                </div>
+                <div class="col">
+                    <h5>35%</h5>
+                    <p>Exchange Listing</p>
+                </div>
+                <div class="col">
+                    <h5>20%</h5>
+                    <p>Company Reserve</p>
+                </div>
+                <div class="col">
+                    <h5>5%</h5>
+                    <p>Partners</p>
+                </div>
+                <div class="col">
+                    <h5>10%</h5>
+                    <p>Development</p>
+                </div>
+                <div class="col">
+                    <h5>8%</h5>
+                    <p>Team & Advisor</p>
+                </div>
+                <div class="col">
+                    <h5>2%</h5>
+                    <p>Airdrop</p>
+                </div>
+                <div class="col">
+                    <h5>10%</h5>
+                    <p>Marketing</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
     <!-- Features -->
 
