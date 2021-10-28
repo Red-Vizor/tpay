@@ -150,6 +150,7 @@ span {
     height: 800px;
     background-image: url("../images/features.png");
     position: relative;
+    overflow-x: clip !important;
 }
 
 .t-coin {
