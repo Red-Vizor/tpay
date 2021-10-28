@@ -12,26 +12,22 @@
     <link rel="stylesheet" href="./assets/style/chart.style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="./assets/font-awesome/b9fcac3324.js"></script>
     <script src="assets/script/jquery.min.js"></script>
-    
+
 </head>
 
-<body class="distribution">
+<body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand " href="#">
-                <img src="assets/images/tpaylogo.png" alt="logo" height="50">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/images/tpaylogo.png" alt="logo" height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex " id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
@@ -64,9 +60,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 my-auto">
-                        <h3 class="fw-bolder mb-3"><span>Future</span> Business Technology</i></h3 class="fw-bolder">
-                        <p>TolPay is the source token currency to perform more transactions with minimum cost from these
-                            services so that Users can benefit from their best features on Applications.
+                        <h3 class="fw-bolder mb-3"><span>Future</span> Business Technology</i>
+                        </h3 class="fw-bolder">
+                        <p>TolPay is the source token currency to perform more transactions with minimum cost from these services so that Users can benefit from their best features on Applications.
                         </p>
                         <button type="button" class="btn btn-success px-4">Whitepaper</button>
                         <button type="button" class="btn btn-success px-4">Road Map</button>
@@ -123,12 +119,8 @@
                 <h1 class="text-center fw-bolder pt-5">Our<span>Vision</span></h1>
                 <img src="assets/images/Ellipse.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
                 <p class="text-center vision-text">
-                    We aim to enable TolPay to be used in different applications in the future, in a way that can easily
-                    meet the needs of users from all levels,
-                    in a transparent, controllable, and minimally costly manner. In addition to its management and audit
-                    network,
-                    we plan to support the effort to offer technologies to address price volatility and transaction
-                    scalability problems in existing public blockchain frameworks.
+                    We aim to enable TolPay to be used in different applications in the future, in a way that can easily meet the needs of users from all levels, in a transparent, controllable, and minimally costly manner. In addition to its management and audit network,
+                    we plan to support the effort to offer technologies to address price volatility and transaction scalability problems in existing public blockchain frameworks.
                 </p>
                 <p class="text-center vision-text">
                     What we've beennparticularly focused on supplying is;
@@ -142,8 +134,7 @@
                             <p class="vision-letter">A</p>
                             <div class="card-body">
                                 <h5 class="card-title">Automated Cryptocurrency Trading</h5>
-                                <p class="card-text">It offers the ultimate tools for crypto traders to maximize their
-                                    trading profits while minimizing risk and loss.</p>
+                                <p class="card-text">It offers the ultimate tools for crypto traders to maximize their trading profits while minimizing risk and loss.</p>
                             </div>
                         </div>
                     </div>
@@ -152,8 +143,7 @@
                             <p class="vision-letter">W</p>
                             <div class="card-body ">
                                 <h5 class="card-title">Wallet</h5>
-                                <p class="card-text">Wallet aims to integrate your cryptocurrencies with crosschain
-                                    (multiple blockchain networks) securely and with reasonable commission cost.</p>
+                                <p class="card-text">Wallet aims to integrate your cryptocurrencies with crosschain (multiple blockchain networks) securely and with reasonable commission cost.</p>
                             </div>
                         </div>
                     </div>
@@ -172,10 +162,8 @@
                             <p class="vision-letter">B</p>
                             <div class="card-body">
                                 <h5 class="card-title">Build Platform</h5>
-                                <p class="card-text">A reliable platform for the creation and use of cryptocurrencies,
-                                    and
-                                    Developing Industry 4.0 and Industry 5.0 commercial softwares within the blockchain
-                                    network.</p>
+                                <p class="card-text">A reliable platform for the creation and use of cryptocurrencies, and Developing Industry 4.0 and Industry 5.0 commercial softwares within the blockchain network.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -185,10 +173,10 @@
         </section>
 
         <!-- Distribution of TolPay -->
-        <section class="distribution" id="distribution">
+        <section class="distribution py-5" id="distribution">
             <h1 class="text-center fw-bolder pt-5">Distribution of <span>TolPay</span></h1>
             <img src="assets/images/Ellipse2.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="450">
-            <div class="background py-5">
+            <div class="chart-container py-5">
                 <div class="container">
                     <div class="content">
                         <div class="pie--chart-inner type2">
@@ -196,47 +184,48 @@
                                 <div id="token--pie-chart-light" style="height: 580px"></div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <h5>8%</h5>
-                                <p>PreSale</p>
-                            </div>
-                            <div class="col">
-                                <h5>2%</h5>
-                                <p>PrivateSale</p>
-                            </div>
-                            <div class="col">
-                                <h5>35%</h5>
-                                <p>Exchange Listing</p>
-                            </div>
-                            <div class="col">
-                                <h5>20%</h5>
-                                <p>Company Reserve</p>
-                            </div>
-                            <div class="col">
-                                <h5>5%</h5>
-                                <p>Partners</p>
-                            </div>
-                            <div class="col">
-                                <h5>10%</h5>
-                                <p>Development</p>
-                            </div>
-                            <div class="col">
-                                <h5>8%</h5>
-                                <p>Team & Advisor</p>
-                            </div>
-                            <div class="col">
-                                <h5>2%</h5>
-                                <p>Airdrop</p>
-                            </div>
-                            <div class="col">
-                                <h5>10%</h5>
-                                <p>Marketing</p>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col">
+                    <h5>8%</h5>
+                    <p>PreSale</p>
+                </div>
+                <div class="col">
+                    <h5>2%</h5>
+                    <p>PrivateSale</p>
+                </div>
+                <div class="col">
+                    <h5>35%</h5>
+                    <p>Exchange Listing</p>
+                </div>
+                <div class="col">
+                    <h5>20%</h5>
+                    <p>Company Reserve</p>
+                </div>
+                <div class="col">
+                    <h5>5%</h5>
+                    <p>Partners</p>
+                </div>
+                <div class="col">
+                    <h5>10%</h5>
+                    <p>Development</p>
+                </div>
+                <div class="col">
+                    <h5>8%</h5>
+                    <p>Team & Advisor</p>
+                </div>
+                <div class="col">
+                    <h5>2%</h5>
+                    <p>Airdrop</p>
+                </div>
+                <div class="col">
+                    <h5>10%</h5>
+                    <p>Marketing</p>
+                </div>
+
             </div>
 
         </section>
@@ -256,11 +245,9 @@
                     <div class="col-3">
                         <div class="card features-card upper-card mx-4">
                             <div class="card-body">
-                                <img src="assets/images/wallet-icon.png" class="rounded mx-auto d-block pt-5 mb-3"
-                                    alt="wallet" width="30%">
+                                <img src="assets/images/wallet-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="wallet" width="30%">
                                 <h5 class="card-title fw-bold">Wallet</h5>
-                                <p class="card-text">Wallet aims to integrate your cryptocurrencies with crosschain
-                                    (multiple blockchain networks) securely and with reasonable commission cost</p>
+                                <p class="card-text">Wallet aims to integrate your cryptocurrencies with crosschain (multiple blockchain networks) securely and with reasonable commission cost</p>
                             </div>
                         </div>
                         <div class="first-vertical-line"></div>
@@ -268,8 +255,7 @@
                     <div class="col-3">
                         <div class="card features-card lower-card mx-4">
                             <div class="card-body">
-                                <img src="assets/images/ttbot-icon.png" class="rounded mx-auto d-block pt-5 mb-3"
-                                    alt="ttbot" width="30%">
+                                <img src="assets/images/ttbot-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="ttbot" width="30%">
                                 <h5 class="card-title fw-bold">TTBot</h5>
                                 <p class="card-text pb-5">Automated cryptocurrency trading</p>
                             </div>
@@ -279,12 +265,9 @@
                     <div class="col-3">
                         <div class="card features-card lower-card mx-4">
                             <div class="card-body">
-                                <img src="assets/images/swap-icon.png" class="rounded mx-auto d-block pt-5 mb-3"
-                                    alt="swap" width="30%">
+                                <img src="assets/images/swap-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="swap" width="30%">
                                 <h5 class="card-title fw-bold">Swap</h5>
-                                <p class="card-text">Swap is an in-wallet crypto-to-crypto exchange. Swap allows users
-                                    to
-                                    easily exchange one cryptocurrency for another without leaving their wallet.</p>
+                                <p class="card-text">Swap is an in-wallet crypto-to-crypto exchange. Swap allows users to easily exchange one cryptocurrency for another without leaving their wallet.</p>
                             </div>
                         </div>
                         <div class="third-vertical-line"></div>
@@ -292,12 +275,9 @@
                     <div class="col-3">
                         <div class="card features-card upper-card mx-4">
                             <div class="card-body">
-                                <img src="assets/images/api-icon.png" class="rounded mx-auto d-block pt-5 mb-3"
-                                    alt="api" width="30%">
+                                <img src="assets/images/api-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="api" width="30%">
                                 <h5 class="card-title fw-bold">API Service</h5>
-                                <p class="card-text pb-5">Thanks to Tolpay Api, we aim to provide a secure and flexible
-                                    developer
-                                    environment to the platforms we have created.</p>
+                                <p class="card-text pb-5">Thanks to Tolpay Api, we aim to provide a secure and flexible developer environment to the platforms we have created.</p>
                             </div>
                         </div>
                         <div class="first-vertical-line"></div>
@@ -406,19 +386,14 @@
             <div class="roadmap-box container mb-2">
 
             </div>
-            <img src="assets/images/tpaylogo-white.png" class="rounded mx-auto d-block white-logo position-relative"
-                alt="white-logo" width="6%">
+            <img src="assets/images/tpaylogo-white.png" class="rounded mx-auto d-block white-logo position-relative" alt="white-logo" width="6%">
         </section>
 
     </section>
 
     <script src="./assets/script/bootstrap.bundle.min.js"></script>
 
-    <script src="./assets/script/parsley/parsley.min.js"></script>
-    <script src="./assets/script/owl-carousel/owl.carousel.min.js"></script>
     <script src="./assets/script/chart-js/echarts.min.js"></script>
-    <script src="./assets/script/menu.min.js"></script>
-    <script src="./assets/script/waypoints/jquery.counterup.min.js"></script>
     <script src="./assets/script/scripts.js"></script>
 </body>
 

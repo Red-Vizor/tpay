@@ -141,13 +141,13 @@ span {
     position: relative;
 }
 
-.distribution .background {
+.distribution .chart-container {
     width: 100%;
     background-color: #f4f4f4;
     -ms-transform: skewY(-3deg); 
     transform: skewY(-3deg);
 }
-.distribution .background .content {
+.distribution .chart-container .content {
     -ms-transform: skewY(3deg); 
     transform: skewY(3deg);
 }
