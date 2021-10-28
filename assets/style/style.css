@@ -260,6 +260,9 @@ span {
     height: 230px;
 }
 
+.roadmap-box .col {
+    position: relative;
+}
 
 .roadmap-box:nth-child(even) {
     background: rgb(114,182,154);
@@ -288,8 +291,9 @@ span {
 
 .road-map .date {
     color: #5a8f79;
-    font-size: 4rem;
+    font-size: 4.6rem;
     font-weight: 600;
+    padding-left: 5rem !important;
 }
 
 .road-map h3 {
@@ -298,6 +302,25 @@ span {
     padding-top: 1.5rem;
     -ms-transform: skewY(3deg); 
     transform: skewY(3deg);  
+}
+
+.fa-caret-right {
+    font-size: 1.2rem !important;
+}
+
+.fa-sort-down {
+    position: absolute;
+    top: -30px !important;
+    left: 5%;
+    color: #f4f4f4;
+}
+
+.sort-down-dark1 {
+    color: #1a3b54;
+}
+
+.sort-down-dark2 {
+    color: #133452;
 }
 
 .road-map p {
