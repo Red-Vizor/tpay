@@ -18,6 +18,11 @@ span {
     z-index: 0;
 }
 
+.t-coin {
+    right: -15%;
+    top: -35%;
+}
+
 /* Navbar */
 
 .navbar .container {
@@ -123,6 +128,8 @@ span {
 .features {
     height: 800px;
     background-image: url("../images/features.png");
+    position: relative;
+    max-width: 100%;
 }
 
 .features .container {
@@ -199,11 +206,22 @@ span {
 /* Road Map */
 
 .road-map {
-    height: 1000px;
+    height: 1350px;
     background-color: #f4f4f4;
+    position: relative;
+}
+
+.road-map:before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    border-top: 80px solid white;
+    border-right: 1900px solid #f4f4f4;
+    width: 0;
 }
 
 .road-map h1 {
+    padding-top: 5rem !important;
     color: #245c99;
     font-size: 3.5rem;
     position: relative;
@@ -262,4 +280,9 @@ span {
     font-size: 0.9rem;
     -ms-transform: skewY(3deg); 
     transform: skewY(3deg);  
+}
+
+.white-logo {
+    z-index: 1;
+    bottom: 100px;
 }
