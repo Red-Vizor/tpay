@@ -26,10 +26,27 @@
         padding: 0 2rem;
     }
     .road-map {
-        height: 1700px;
+        height: 1380px;
         background-color: #f4f4f4;
         position: relative;
         overflow: hidden;
+    }
+    .roadmap-box {
+        margin-bottom: 3rem !important;
+    }
+    .road-map.mobile .roadmap-box:nth-child(odd) .col {
+        margin-top: -4%;
+    }
+    .road-map.mobile .roadmap-box:nth-child(odd) .col:nth-child(1) {
+        margin-left: 10%;
+    }
+    .fa-sort-down {
+        display: none !important;
+    }
+    .white-logo {
+        z-index: 1;
+        bottom: 65px;
+        width: 80px;
     }
 }
 
