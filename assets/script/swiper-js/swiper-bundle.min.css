@@ -23,7 +23,8 @@
 
 .swiper,
 .swiper-vision,
-.swiper-partner {
+.swiper-partner,
+.swiper-features {
     margin-left: auto;
     margin-right: auto;
     position: relative;

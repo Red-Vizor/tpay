@@ -93,8 +93,6 @@ span {
 /* Our Vision */
 
 .our-vision {
-    position: relative;
-    height: 850px;
     background-image: url("../images/ourvision2.png"), url("../images/ourvision1.png");
 }
 
@@ -115,8 +113,6 @@ span {
 
 .vision-card {
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 
 .vision-card .card-body {
@@ -203,7 +199,6 @@ span {
 /* Features */
 
 .features {
-    height: 800px;
     background-image: url("../images/features.png");
     position: relative;
     overflow-x: clip !important;
@@ -213,6 +208,11 @@ span {
     position: absolute;
     right: -15%;
     top: -35%;
+}
+
+.features-slider-container {
+    width: 100%;
+    height: 600px;
 }
 
 .features .container {
@@ -275,10 +275,6 @@ span {
 
 /* Our Partners */
 
-.our-partners {
-    height: 350px;
-}
-
 .our-partners h1 {
     position: relative;
     z-index: 1;
@@ -319,16 +315,16 @@ span {
     z-index: 1;
 }
 
-.roadmap-box {
+.road-map .roadmap-box {
     position: relative;
     height: 230px;
 }
 
-.roadmap-box .col {
+.road-map .roadmap-box .col {
     position: relative;
 }
 
-.roadmap-box:nth-child(even) {
+.road-map .roadmap-box:nth-child(even) {
     background: rgb(114, 182, 154);
     background: linear-gradient(90deg, rgba(114, 182, 154, 1) 0%, rgba(52, 109, 139, 1) 36%, rgba(22, 74, 132, 1) 100%);
     -ms-transform: skewY(-3deg);
@@ -336,7 +332,17 @@ span {
     z-index: 1;
 }
 
-.roadmap-box:nth-child(odd) {
+.road-map .roadmap-box:nth-child(even) .col {
+    -ms-transform: skewY(3deg) !important;
+    transform: skewY(3deg) !important;
+}
+
+.road-map .roadmap-box:nth-child(odd) .col {
+    -ms-transform: skewY(-15deg) !important;
+    transform: skewY(-15deg) !important;
+}
+
+.road-map .roadmap-box:nth-child(odd) {
     background: rgb(59, 99, 92);
     background: linear-gradient(90deg, rgba(59, 99, 92, 1) 0%, rgba(33, 68, 86, 1) 36%, rgba(13, 45, 81, 1) 100%);
     -ms-transform: skewY(15deg);
@@ -345,11 +351,11 @@ span {
     top: 10px;
 }
 
-.roadmap-box:nth-child(4) {
+.road-map .roadmap-box:nth-child(4) {
     top: 20px;
 }
 
-.roadmap-box:nth-child(5) {
+.road-map .roadmap-box:nth-child(5) {
     top: 30px;
 }
 
@@ -364,8 +370,6 @@ span {
     color: #fff;
     font-size: 2rem;
     padding-top: 1.5rem;
-    -ms-transform: skewY(3deg);
-    transform: skewY(3deg);
 }
 
 .fa-caret-right {
@@ -392,36 +396,9 @@ span {
     font-weight: 600;
     line-height: 0.8rem;
     font-size: 0.9rem;
-    -ms-transform: skewY(3deg);
-    transform: skewY(3deg);
 }
 
 .white-logo {
     z-index: 1;
     bottom: 100px;
-}
-
-@media screen and (max-width: 480px) {
-    .our-vision .vision-text,
-    .features .features-text {
-        padding: 1rem 1rem 0.5rem;
-    }
-    .ellipse {
-        width: 85%;
-    }
-    .vision-card {
-        height: auto;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .our-vision .vision-text,
-    .features .features-text {
-        padding: 1rem 1rem 0.5rem;
-    }
-    .vision-card {
-        height: auto;
-        width: 100%;
-    }
 }
