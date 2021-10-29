@@ -10,6 +10,9 @@
 }
 
 @media screen and (max-width: 640px) {
+    h1 { 
+        font-size: 2.25rem !important;
+    }
     .our-vision .vision-text {
         line-height: 1.2;
     }
@@ -19,10 +22,15 @@
     }
     .ellipse {
         width: 85%;
+        top: -25px;
     }
     .vision-card {
         height: auto;
         width: 95% !important;
+    }
+    .t-coin {
+        width: 50%;
+        top: -15%;
     }
     /* Features */
     .features .container {
@@ -41,6 +49,15 @@
         font-size: 4.6rem;
         font-weight: 600;
         padding-left: 0 !important;
+    }
+    .road-map h3 {
+        font-size: 1.7rem;
+        padding-top: 1.2rem;
+    }
+    .road-map p {
+        font-weight: 500;
+        line-height: 0.65rem;
+        font-size: 0.75rem;
     }
     .white-logo {
         z-index: 1;
