@@ -9,11 +9,12 @@
 
     <link href="./assets/style/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/vivify.min.css">
     <link rel="stylesheet" href="./assets/style/responsive-style.css">
     <link rel="stylesheet" href="./assets/script/swiper-js/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./assets/style/chart.style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="./assets/font-awesome/b9fcac3324.js"></script>
     <script src="./assets/script/jquery.min.js"></script>
@@ -21,7 +22,7 @@
 
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/images/tpaylogo.png" alt="logo" height="50"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +70,8 @@
                         <button type="button" class="btn btn-success px-4">Road Map</button>
                         <div class="row mt-5">
                             <div class="col-6 social-icons">
-                                <div class="row">
+
+                                <div class="row d-none">
                                     <div class="col my-auto">
                                         <a href="#">
                                             <i class="fab fa-twitter"></i>
@@ -114,8 +116,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-7 pe-5">
-                        <img src="assets/images/home-image1.png" class="pt-3 pe-5" alt="" width="110%">
+                    <div class="col-lg-7 pe-5 ">
+                        <img src="assets/images/home-image1.png" class="pt-3 pe-5 vivify fadeInRight" alt="wallet" width="110%">
                     </div>
                 </div>
             </div>
@@ -124,7 +126,7 @@
         <!-- Our Vision -->
         <section class="our-vision" id="vision">
             <div class="container d-flex flex-column align-items-center">
-                <h1 class="fw-bolder pt-5">Our<span>Vision</span></h1>
+                <h1 data-aos="fade-up" class="fw-bolder pt-5">Our<span>Vision</span></h1>
                 <img src="assets/images/Ellipse.png" class="rounded d-block ellipse" alt="ellipse" width="20%">
 
                 <div class="text-area">
@@ -139,7 +141,7 @@
                 <div class="vision-card vision-slider-container mt-4 pt-4">
                     <div class="swiper-vision">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                                 <div class="card bg-transparent">
                                     <p class="vision-letter">A</p>
                                     <div class="card-body">
@@ -148,7 +150,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                                 <div class="card bg-transparent">
                                     <p class="vision-letter">W</p>
                                     <div class="card-body ">
@@ -157,7 +159,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                                 <div class="card bg-transparent">
                                     <p class="vision-letter">M</p>
                                     <div class="card-body">
@@ -167,7 +169,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                                 <div class="card bg-transparent">
                                     <p class="vision-letter">B</p>
                                     <div class="card-body">
@@ -185,7 +187,7 @@
 
         <!-- Distribution of TolPay -->
         <section class="distribution py-5" id="distribution">
-            <h1 class="text-center fw-bolder pt-5">Distribution of <span>TolPay</span></h1>
+            <h1 data-aos="fade-up" class="text-center fw-bolder pt-5">Distribution of <span>TolPay</span></h1>
             <img src="assets/images/Ellipse2.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="450">
             <div class="chart-container py-5">
                 <div class="container">
@@ -244,9 +246,9 @@
 
         <!-- Features -->
         <section class="features" id="features">
-            <img src="assets/images/t-coin.png" class="t-coin" alt="t-coin" width="30%">
+            <img src="assets/images/t-coin.png" class="t-coin" alt="t-coin" data-aos="fade-up-left" width="30%">
             <div class="container d-flex flex-column align-items-center justify-content-center">
-                <h1 class="text-center fw-bolder pt-5">Features</h1>
+                <h1 data-aos="fade-up" class="text-center fw-bolder pt-5">Features</h1>
                 <img src="assets/images/Ellipse.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
                 <p class="text-center features-text">
                     Meet with amazing features of TolPay.
@@ -254,7 +256,7 @@
                 <div class="row text-center features-slider-container">
                     <div class="swiper-features">
                         <div class="swiper-wrapper pt-5 ">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="zoom-out">
                                 <div class="card features-card upper-card mx-4">
                                     <div class="card-body">
                                         <img src="assets/images/wallet-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="wallet" width="30%">
@@ -264,7 +266,7 @@
                                 </div>
                                 <div class="line first-vertical-line"></div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="zoom-out">
                                 <div class="card features-card lower-card mx-4">
                                     <div class="card-body">
                                         <img src="assets/images/ttbot-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="ttbot" width="30%">
@@ -274,7 +276,7 @@
                                 </div>
                                 <div class="line second-vertical-line"></div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="zoom-out">
                                 <div class="card features-card lower-card mx-4">
                                     <div class="card-body">
                                         <img src="assets/images/swap-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="swap" width="30%">
@@ -284,7 +286,7 @@
                                 </div>
                                 <div class="line third-vertical-line"></div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="zoom-out">
                                 <div class="card features-card upper-card mx-4">
                                     <div class="card-body">
                                         <img src="assets/images/api-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="api" width="30%">
@@ -302,26 +304,26 @@
 
         <!-- Our Partners -->
 
-        <section class="our-partners" id="partners">
+        <section class="our-partners pt-4 pb-5" id="partners">
             <div class="container d-flex flex-column align-items-center">
-                <h1 class="fw-bolder pt-5">Our <span>Partners</span></h1>
+                <h1 data-aos="fade-up" class="fw-bolder pt-5">Our <span>Partners</span></h1>
                 <img src="assets/images/Ellipse2.png" class="rounded  d-block ellipse" alt="ellipse" width="350">
                 <div class="partner-slider-container mt-4">
                     <div class="swiper-partner">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide my-auto">
                                 <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide my-auto">
+                                <img src="assets/images/nba.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+                            </div>
+                            <div class="swiper-slide my-auto">
                                 <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide my-auto">
                                 <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
                             </div>
-                            <div class="swiper-slide">
-                                <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
-                            </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide my-auto">
                                 <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
                             </div>
                         </div>
@@ -332,9 +334,9 @@
 
         <!-- Road Map -->
 
-        <section class="road-map d-none d-lg-block" id="roadmap">
-            <div class="container">
-                <h1 class="text-center fw-bolder pt-5">Roadmap</h1>
+        <section class="road-map d-none d-lg-block mt-4" id="roadmap">
+            <div class="container mb-5">
+                <h1 data-aos="fade-up" class="text-center fw-bolder pt-5">Roadmap</h1>
                 <img src="assets/images/Ellipse2.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
             </div>
             <div class="roadmap-box container mb-2">
@@ -424,9 +426,9 @@
         </section>
 
 
-        <section class="road-map d-block d-lg-none" id="roadmap">
-            <div class="container">
-                <h1 class="text-center fw-bolder pt-5">Roadmap</h1>
+        <section class="road-map d-block d-lg-none mt-4" id="roadmap">
+            <div class="container mb-5">
+                <h1 data-aos="fade-up" class="text-center fw-bolder pt-5">Roadmap</h1>
                 <img src="assets/images/Ellipse2.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
             </div>
             <div class="roadmap-box container mb-2">
@@ -460,7 +462,7 @@
                 <div class="row h-100">
                     <div class="col">
                         <i class="fas fa-sort-down fa-3x"></i>
-                        <h3 class="fw-bolder">Q3<i class="fas fa-caret-right ms-2"></i></h3>
+                        <h3 class="fw-bolder mt-4">Q3<i class="fas fa-caret-right ms-2"></i></h3>
                         <p>Updating Web Api Service</p>
                         <p>Token Metrics Planing and Release</p>
                         <p>Publish Whitepaper V1</p>
@@ -504,7 +506,7 @@
                 <div class="row h-100">
                     <div class="col">
                         <i class="fas fa-sort-down sort-down-dark1 fa-3x"></i>
-                        <h3 class="fw-bolder">Q3<i class="fas fa-caret-right ms-2"></i></h3>
+                        <h3 class="fw-bolder mt-4">Q3<i class="fas fa-caret-right ms-2"></i></h3>
                         <p>TolsisLabs BlockChain Testnet</p>
                         <p>Create Payment System Platform</p>
                     </div>
@@ -521,11 +523,16 @@
 
     </section>
 
+    <script src="./assets/script/scrool.js"></script>
     <script src="./assets/script/swiper-js/swiper-bundle.min.js"></script>
     <script src="./assets/script/swiper-js/swiper.js"></script>
     <script src="./assets/script/bootstrap.bundle.min.js"></script>
     <script src="./assets/script/chart-js/echarts.min.js"></script>
     <script src="./assets/script/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

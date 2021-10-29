@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     .our-vision .vision-text,
     .features .features-text {
         padding: 1rem 1rem 0.5rem;
@@ -7,10 +7,18 @@
         height: auto;
         width: 100%;
     }
+    .navbar .container {
+        max-width: 992px !important;
+    }
+    .navbar .nav-link {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        margin: 0px !important;
+    }
 }
 
 @media screen and (max-width: 640px) {
-    h1 { 
+    h1 {
         font-size: 2.25rem !important;
     }
     .our-vision .vision-text {
@@ -66,6 +74,9 @@
         width: 100px;
     }
     .fa-sort-down {
-        display: none !important; 
+        display: none !important;
+    }
+    .banner p {
+        padding-right: 2rem;
     }
 }

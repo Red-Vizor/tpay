@@ -287,6 +287,15 @@ span {
     width: 65% !important;
 }
 
+.partner-slider-container img {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+.partner-slider-container img:hover {
+    filter: grayscale(0);
+}
+
 
 /* Road Map */
 
