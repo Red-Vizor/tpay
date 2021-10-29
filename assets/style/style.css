@@ -57,12 +57,43 @@ span {
     line-height: 2.3rem;
     padding-right: 10rem;
     color: #545454;
+    font-weight: 400;
     font-size: 1.15rem;
 }
 
+.banner .social-border {
+    border-bottom: 1px solid #133860 !important;
+    opacity: 0.5;
+    transform: translateY(-50%);
+}
+
+.banner .social-icons .icons {
+    width: 60%;
+}
+
+.banner .social-icons li {
+    background-color: #f4f4f4;
+}
+
 .banner .social-icons a {
-    display: flex;
-    align-items: center;
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transition: all 0.5s ease;
+}
+
+.banner .social-icons a:hover {
+    background-color: #245c99;
+}
+
+.banner .social-icons a:hover>.fab {
+    color: #fff !important;
+}
+
+.icon-container {
+    min-height: 30px;
 }
 
 .banner .social-icons .btn {
@@ -73,16 +104,10 @@ span {
 
 .banner .social-icons .fab {
     color: #245c99 !important;
-    padding: 7px 0 0 7px;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    transition: all .5 ease;
-}
-
-.banner .fab:hover {
-    color: #fff !important;
-    background-color: #245c99;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-52%, -50%);
 }
 
 .banner hr {

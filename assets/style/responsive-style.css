@@ -15,6 +15,13 @@
         padding-left: 10px !important;
         margin: 0px !important;
     }
+    .banner .container {
+        max-width: 992px !important;
+    }
+    .t-coin {
+        width: 40%;
+        top: -20%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -29,7 +36,7 @@
         padding: 1rem 1rem 0.5rem;
     }
     .ellipse {
-        width: 75%;
+        width: 72%;
         top: -25px;
     }
     .vision-card {
