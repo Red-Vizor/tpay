@@ -9,12 +9,14 @@
 
     <link href="./assets/style/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/script/swiper-js/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/style/chart.style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="./assets/font-awesome/b9fcac3324.js"></script>
-    <script src="assets/script/jquery.min.js"></script>
+    <script src="./assets/script/jquery.min.js"></script>
+
 
 </head>
 
@@ -54,7 +56,6 @@
             </div>
         </div>
     </nav>
-    <!-- Navbar End -->
 
     <section class="main" id="home">
         <!-- Banner -->
@@ -69,7 +70,7 @@
                         <button type="button" class="btn btn-success px-4">Whitepaper</button>
                         <button type="button" class="btn btn-success px-4">Road Map</button>
                         <div class="row mt-5">
-                            <div class="col-6">
+                            <div class="col-6 social-icons">
                                 <div class="row">
                                     <div class="col my-auto">
                                         <a href="#">
@@ -82,7 +83,7 @@
                                     <div class="col my-auto ">
                                         <a href="#">
                                             <i class="fab fa-youtube"></i>
-                                        </a>                                      
+                                        </a>
                                     </div>
                                     <div class="col my-auto px-0 mx-0">
                                         <hr>
@@ -90,7 +91,7 @@
                                     <div class="col my-auto">
                                         <a href="#">
                                             <i class="fab fa-github"></i>
-                                        </a>                                          
+                                        </a>
                                     </div>
                                     <div class="col my-auto px-0 mx-0">
                                         <hr>
@@ -98,7 +99,7 @@
                                     <div class="col my-auto">
                                         <a href="#">
                                             <i class="fab fa-medium"></i>
-                                        </a>                                         
+                                        </a>
                                     </div>
                                     <div class="col my-auto px-0 mx-0">
                                         <hr>
@@ -106,7 +107,7 @@
                                     <div class="col my-auto">
                                         <a href="#">
                                             <i class="fab fa-telegram"></i>
-                                        </a>      
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -123,11 +124,10 @@
         </div>
 
         <!-- Our Vision -->
-
         <section class="our-vision" id="vision">
-            <div class="container pb-5">
-                <h1 class="text-center fw-bolder pt-5">Our<span>Vision</span></h1>
-                <img src="assets/images/Ellipse.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
+            <div class="container pb-5 d-flex flex-column align-items-center">
+                <h1 class="fw-bolder pt-5">Our<span>Vision</span></h1>
+                <img src="assets/images/Ellipse.png" class="rounded d-block ellipse" alt="ellipse" width="20%">
                 <p class="text-center vision-text">
                     We aim to enable TolPay to be used in different applications in the future, in a way that can easily meet the needs of users from all levels, in a transparent, controllable, and minimally costly manner. In addition to its management and audit network,
                     we plan to support the effort to offer technologies to address price volatility and transaction scalability problems in existing public blockchain frameworks.
@@ -135,51 +135,52 @@
                 <p class="text-center vision-text">
                     What we've beennparticularly focused on supplying is;
                 </p>
-            </div>
 
-            <div class="vision-card d-flex justify-content-center">
-                <div class="row">
-                    <div class="col-3 col-lg-3">
-                        <div class="card bg-transparent">
-                            <p class="vision-letter">A</p>
-                            <div class="card-body">
-                                <h5 class="card-title">Automated Cryptocurrency Trading</h5>
-                                <p class="card-text">It offers the ultimate tools for crypto traders to maximize their trading profits while minimizing risk and loss.</p>
+                <div class="vision-card vision-slider-container mt-4">
+                    <div class="swiper-vision">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card bg-transparent">
+                                    <p class="vision-letter">A</p>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Automated Cryptocurrency Trading</h5>
+                                        <p class="card-text">It offers the ultimate tools for crypto traders to maximize their trading profits while minimizing risk and loss.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-lg-3">
-                        <div class="card bg-transparent">
-                            <p class="vision-letter">W</p>
-                            <div class="card-body ">
-                                <h5 class="card-title">Wallet</h5>
-                                <p class="card-text">Wallet aims to integrate your cryptocurrencies with crosschain (multiple blockchain networks) securely and with reasonable commission cost.</p>
+                            <div class="swiper-slide">
+                                <div class="card bg-transparent">
+                                    <p class="vision-letter">W</p>
+                                    <div class="card-body ">
+                                        <h5 class="card-title">Wallet</h5>
+                                        <p class="card-text">Wallet aims to integrate your cryptocurrencies with crosschain (multiple blockchain networks) securely and with reasonable commission cost.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-lg-3">
-                        <div class="card bg-transparent">
-                            <p class="vision-letter">M</p>
-                            <div class="card-body">
-                                <h5 class="card-title">Marketplace</h5>
-                                <p class="card-text">A payment infrastructure between the marketplace and the traders.
-                                </p>
+                            <div class="swiper-slide">
+                                <div class="card bg-transparent">
+                                    <p class="vision-letter">M</p>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Marketplace</h5>
+                                        <p class="card-text">A payment infrastructure between the marketplace and the traders.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-lg-3">
-                        <div class="card bg-transparent">
-                            <p class="vision-letter">B</p>
-                            <div class="card-body">
-                                <h5 class="card-title">Build Platform</h5>
-                                <p class="card-text">A reliable platform for the creation and use of cryptocurrencies, and Developing Industry 4.0 and Industry 5.0 commercial softwares within the blockchain network.
-                                </p>
+                            <div class="swiper-slide">
+                                <div class="card bg-transparent">
+                                    <p class="vision-letter">B</p>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Build Platform</h5>
+                                        <p class="card-text">A reliable platform for the creation and use of cryptocurrencies, and Developing Industry 4.0 and Industry 5.0 commercial softwares within the blockchain network.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
         <!-- Distribution of TolPay -->
@@ -245,12 +246,13 @@
 
         <section class="features" id="features">
             <img src="assets/images/t-coin.png" class="t-coin" alt="t-coin" width="30%">
-            <div class="container">
+            <div class="container d-flex flex-column align-items-center justify-content-center">
                 <h1 class="text-center fw-bolder pt-5">Features</h1>
                 <img src="assets/images/Ellipse.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
                 <p class="text-center features-text">
                     Meet with amazing features of TolPay.
                 </p>
+
                 <div class="row text-center">
                     <div class="col-3 col-lg-3">
                         <div class="card features-card upper-card mx-4">
@@ -299,10 +301,30 @@
         <!-- Our Partners -->
 
         <section class="our-partners" id="partners">
-            <div class="container">
-                <h1 class="text-center fw-bolder pt-5">Our <span>Partners</span></h1>
-                <img src="assets/images/Ellipse2.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
-                <img src="assets/images/partners.png" class="rounded mx-auto d-block" alt="ellipse" width=65%>
+            <div class="container d-flex flex-column align-items-center">
+                <h1 class="fw-bolder pt-5">Our <span>Partners</span></h1>
+                <img src="assets/images/Ellipse2.png" class="rounded  d-block ellipse" alt="ellipse" width="350">
+                <div class="partner-slider-container mt-4">
+                    <div class="swiper-partner">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -401,8 +423,9 @@
 
     </section>
 
+    <script src="./assets/script/swiper-js/swiper-bundle.min.js"></script>
+    <script src="./assets/script/swiper-js/swiper.js"></script>
     <script src="./assets/script/bootstrap.bundle.min.js"></script>
-
     <script src="./assets/script/chart-js/echarts.min.js"></script>
     <script src="./assets/script/scripts.js"></script>
 </body>
