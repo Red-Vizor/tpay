@@ -1,11 +1,12 @@
-
 body {
     font-family: 'Poppins', sans-serif !important;
     letter-spacing: -1px;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .container {
     max-width: 1550px !important;
 }
@@ -20,11 +21,8 @@ span {
     z-index: 0;
 }
 
-/* Navbar */
 
-.navbar .container {
-    height: 80px;
-}
+/* Navbar */
 
 .nav-item .nav-link {
     color: #59957c !important;
@@ -38,16 +36,16 @@ span {
 }
 
 .nav-item .btn {
-    background-color: #94c691; 
+    background-color: #94c691;
     border-color: #94c691;
 }
+
 
 /* Banner */
 
 .banner {
     background-color: #f4f4f4;
 }
-
 
 .banner h3 {
     color: #245c99;
@@ -63,7 +61,7 @@ span {
 }
 
 .banner .btn {
-    background-color: #94c691; 
+    background-color: #94c691;
     border-color: #94c691;
     font-weight: 500;
 }
@@ -76,28 +74,38 @@ span {
     border-top: 2px solid #133860;
 }
 
+
 /* Our Vision */
 
 .our-vision {
+    position: relative;
     height: 850px;
-    background-image: url("../images/ourvision2.png") , url("../images/ourvision1.png");
+    background-image: url("../images/ourvision2.png"), url("../images/ourvision1.png");
 }
 
-.our-vision h1, .features h1 {
+.our-vision h1,
+.features h1 {
     color: #fff;
     font-size: 3.5rem;
     position: relative;
     z-index: 1;
 }
 
-.our-vision .vision-text , .features .features-text {
+.our-vision .vision-text,
+.features .features-text {
     color: rgba(255, 255, 255, 0.8);
     line-height: 2.5rem;
     padding: 1rem 9rem 0.5rem;
 }
 
 .vision-card {
-    padding: 3rem 27rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.vision-card .row {
+    width: 70%;
 }
 
 .vision-card .card-body {
@@ -135,6 +143,7 @@ span {
     font-size: 0.9rem;
 }
 
+
 /* Distribution */
 
 .distribution {
@@ -144,11 +153,12 @@ span {
 .distribution .chart-container {
     width: 100%;
     background-color: #f4f4f4;
-    -ms-transform: skewY(-3deg); 
+    -ms-transform: skewY(-3deg);
     transform: skewY(-3deg);
 }
+
 .distribution .chart-container .content {
-    -ms-transform: skewY(3deg); 
+    -ms-transform: skewY(3deg);
     transform: skewY(3deg);
 }
 
@@ -156,9 +166,10 @@ span {
     position: relative;
     z-index: 1;
     color: #245c99;
-    font-size: 3rem; 
-    letter-spacing: -2px !important;   
+    font-size: 3rem;
+    letter-spacing: -2px !important;
 }
+
 
 /* Features */
 
@@ -184,7 +195,7 @@ span {
 }
 
 .features-card h5 {
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
 }
 
 .features-card p {
@@ -192,7 +203,7 @@ span {
     font-size: 0.9rem;
     line-height: 1.8rem;
     font-weight: 600;
-    padding: 0.3rem 1rem ;
+    padding: 0.3rem 1rem;
 }
 
 .features .upper-card {
@@ -232,6 +243,7 @@ span {
     top: 70px;
 }
 
+
 /* Our Partners */
 
 .our-partners {
@@ -242,9 +254,10 @@ span {
     position: relative;
     z-index: 1;
     color: #245c99;
-    font-size: 3.5rem; 
-    letter-spacing: -2px !important;   
+    font-size: 3.5rem;
+    letter-spacing: -2px !important;
 }
+
 
 /* Road Map */
 
@@ -258,7 +271,8 @@ span {
 .road-map:before {
     content: '';
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     border-top: 80px solid white;
     border-right: 1900px solid #f4f4f4;
     width: 0;
@@ -282,17 +296,17 @@ span {
 }
 
 .roadmap-box:nth-child(even) {
-    background: rgb(114,182,154);
-    background: linear-gradient(90deg, rgba(114,182,154,1) 0%, rgba(52,109,139,1) 36%, rgba(22,74,132,1) 100%);
-    -ms-transform: skewY(-3deg); 
+    background: rgb(114, 182, 154);
+    background: linear-gradient(90deg, rgba(114, 182, 154, 1) 0%, rgba(52, 109, 139, 1) 36%, rgba(22, 74, 132, 1) 100%);
+    -ms-transform: skewY(-3deg);
     transform: skewY(-3deg);
     z-index: 1;
-} 
+}
 
 .roadmap-box:nth-child(odd) {
-    background: rgb(59,99,92);
-    background: linear-gradient(90deg, rgba(59,99,92,1) 0%, rgba(33,68,86,1) 36%, rgba(13,45,81,1) 100%);
-    -ms-transform: skewY(15deg); 
+    background: rgb(59, 99, 92);
+    background: linear-gradient(90deg, rgba(59, 99, 92, 1) 0%, rgba(33, 68, 86, 1) 36%, rgba(13, 45, 81, 1) 100%);
+    -ms-transform: skewY(15deg);
     transform: skewY(15deg);
     z-index: 0;
     top: 10px;
@@ -317,8 +331,8 @@ span {
     color: #fff;
     font-size: 2rem;
     padding-top: 1.5rem;
-    -ms-transform: skewY(3deg); 
-    transform: skewY(3deg);  
+    -ms-transform: skewY(3deg);
+    transform: skewY(3deg);
 }
 
 .fa-caret-right {
@@ -345,11 +359,24 @@ span {
     font-weight: 600;
     line-height: 0.8rem;
     font-size: 0.9rem;
-    -ms-transform: skewY(3deg); 
-    transform: skewY(3deg);  
+    -ms-transform: skewY(3deg);
+    transform: skewY(3deg);
 }
 
 .white-logo {
     z-index: 1;
     bottom: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .our-vision .vision-text,
+    .features .features-text {
+        padding: 1rem 1rem 0.5rem;
+    }
+    .vision-card {
+        height: auto;
+    }
+    .vision-card .row {
+        width: 100%;
+    }
 }
