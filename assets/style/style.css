@@ -149,7 +149,6 @@ span {
 .features .features-text {
     color: rgba(255, 255, 255, 0.8);
     line-height: 2.5rem;
-    padding: 1rem 9rem 0.5rem;
 }
 
 .vision-card {
@@ -192,7 +191,7 @@ span {
 }
 
 .vision-slider-container {
-    width: 65% !important;
+    width: 70% !important;
 }
 
 
@@ -336,7 +335,7 @@ span {
 }
 
 .partner-slider-container {
-    width: 65% !important;
+    width: 80% !important;
 }
 
 .partner-slider-container img {
