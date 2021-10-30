@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 .container {
     max-width: 1550px !important;
 }

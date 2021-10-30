@@ -73,13 +73,14 @@
         width: 50%;
         top: -15%;
     }
+    /* distribution */
+    .distribution .content canvas {
+        margin: 0 5rem !important;
+    }
     /* Features */
     .features .container {
         height: 100%;
         padding: 0 0 !important;
-    }
-    .features .line {
-        display: none;
     }
     /* Road map */
     .road-map {
