@@ -1,4 +1,4 @@
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1367px) {
     .our-vision .vision-text,
     .features .features-text {
         padding: 1rem 1rem 0.5rem;
@@ -8,7 +8,7 @@
         width: 100%;
     }
     .container {
-        max-width: 1024px !important;
+        max-width: 1100px !important;
     }
     .road-map .container {
         max-width: 1550px !important;
@@ -47,6 +47,9 @@
         z-index: 1;
         bottom: 65px;
         width: 80px;
+    }
+    .features {
+        margin-top: 40px
     }
 }
 
@@ -115,5 +118,24 @@
     }
     .banner p {
         padding-right: 2rem;
+    }
+    .banner .social-icons .icons {
+        width: 70%;
+    }
+    .icon-container {
+        min-height: 35px !important;
+    }
+    .social-icons a {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .social-icons .fab.fa-medium,
+    .social-icons .fab.fa-telegram,
+    .social-icons .fab.fa-youtube {
+        left: 49% !important;
+        top: 49% !important;
+    }
+    .social-icons .fab {
+        font-size: 1.1rem
     }
 }
