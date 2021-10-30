@@ -79,11 +79,26 @@ span {
     background-color: #f4f4f4;
 }
 
+.icon-container {
+    min-height: 38px !important;
+}
+
+.social-icons .fab.fa-medium,
+.social-icons .fab.fa-telegram,
+.social-icons .fab.fa-youtube {
+    left: 49.5% !important;
+    top: 51% !important;
+}
+
+.social-icons .fab {
+    font-size: 1.25rem
+}
+
 .banner .social-icons a {
     position: relative;
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 38px !important;
+    height: 38px !important;
     border-radius: 100%;
     transition: all 0.5s ease;
 }
@@ -94,10 +109,6 @@ span {
 
 .banner .social-icons a:hover>.fab {
     color: #fff !important;
-}
-
-.icon-container {
-    min-height: 30px;
 }
 
 .banner .social-icons .btn {
